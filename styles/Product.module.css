@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+
+  }
+
+  .container div{
+    width:300px;
+    height:300px;
+    margin: 30px 15px;
+    background-color: rgb(160, 160, 160);
+    cursor: pointer;
+  }
+
+  .container div:hover{
+
+    background-color: rgb(20, 172, 0);
+  }
+
+
+  .title{
+    color: #fff;
+    text-align:center;
+    font-size: 1em;
+  }
